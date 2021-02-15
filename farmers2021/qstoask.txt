@@ -1,0 +1,20 @@
+q1. 
+Add as many slides as required to cover the following aspects:
+
+Master class diagram
+
+User case Diagram
+
+Sequence, Packaging and Deployment Diagrams
+
+Note: Applicable to prototype/product based project
+
+ -> make class diagram, packaging/deployment diagram
+q2.
+
+
+QUESTIONS TO ASK:
+
+1. Do we need a master class digram and a deployment diagram?
+2. How do we consider quantity for transport for logistics cost - three tier system?
+3. Demand Forecasting - how does that add to our forecasting model - suppose in terms of price - multivariate or average of prices? - FBProphet vibes
