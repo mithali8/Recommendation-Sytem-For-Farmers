@@ -1,0 +1,66 @@
+<!doctype html>
+
+
+<html>
+    <head>
+        <title> YOUR CHOICE </title>
+        
+        <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#logo{ 
+  position:fixed; 
+  top:65px; 
+  right:0; 
+} 
+
+</style>
+    </head>
+
+    <body>
+        
+       
+<div id="logo"> 
+  <img src="/static/farmerlogo.png"> 
+</div> 
+<table style="width:50%">
+	<tr>
+    <th> CROP </th>
+    
+    <th> Net Profit (Logistics Included) </th>
+  </tr>
+  {% for row_index in range(8) %}
+    <tr>
+      <td>{{ x['Crop'][row_index] }}</td>
+      <td>{{ x['Price per Quintal'][row_index] }}</td>
+    </tr>
+{% endfor %}
+
+<tr>
+  <td> Onion </td>
+  <td> 3454 </td>
+</tr> 
+</table>
+
+<div style="text-align:center; background-color:lavender;">
+<h2> THE BEST CROP FOR YOU IS : {{best}} !! </h2>
+</div>
+    </body>
+</html>

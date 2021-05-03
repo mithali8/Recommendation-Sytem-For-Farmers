@@ -1,0 +1,1 @@
+harvest_time = {"Beetroot": "60", "Cabbage": "100", "Capsicum": "60", "Tomato": "60", "Onion": "100", "Green Chilly": "80", "Cucumber": "45", "Carrot": "60", "Radish": "60"}

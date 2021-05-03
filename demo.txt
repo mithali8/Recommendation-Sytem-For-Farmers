@@ -1,0 +1,64 @@
+for today:
+
+1. Make UI look better (30 min)
+2. figure out from seniors how they did it DONE
+3. integrating final esa demo with UI (1 hour)
+
+
+
+
+
+Mention that we have parallely been working on integrating calender
+
+
+400 kgs - 4 quintal
+560 kgs - 5.6 quintal
+
+Tiers:
+500 and less (6) -> small
+500 - 1000 (10) -> medium
+1000 and more (15) -> large
+
+
+
+drivers vs Not
+
+
+renting + maintenance (5)
+
+SMALL - 3 wheeler 
+560 kgs - 5.6 quintal
+
+35 km per litre
+
+90 rs per litre 
+
+90/35 rs/km ~ 3 rs
+
+MEDIUM 
+750 kgs 
+
+22 km per litre 
+
+90/22 rs/km ~ 4 rs
+
+LARGE
+
+900 kgs 
+
+17 km per litre 
+
+90/17 ~ 6 rs
+
+v LARGE
+2200 kgs
+
+7 km per litre
+
+90/7 ~ 13 rs
+
+demo:
+
+1. 
+2. 
+3.

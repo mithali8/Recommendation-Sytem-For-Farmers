@@ -1,0 +1,1 @@
+crop_comp = ["Beetroot", "Onion", "Tomato", "Cabbage", "Green Chilly", "Cucumber", "Capsicum", "Carrot", "Radish"]

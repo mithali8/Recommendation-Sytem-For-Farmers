@@ -1,0 +1,1 @@
+crops = {"Beetroot": "beet19-20.csv", "Cabbage": "cabbage19-20.csv", "Capsicum": "capsicum19-20.csv", "Tomato": "tomato19-20.csv", "Carrot": "carrot19-20.csv", "Radish": "radish19-20.csv", "Green Chilly": "greenc19-20.csv", "Cucumber": "cuc19-20.csv", "Onion": "capsicum19-20.csv"}

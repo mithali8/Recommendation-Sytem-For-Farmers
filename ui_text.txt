@@ -1,0 +1,21 @@
+index.html  -> after farmer chooses use case1 and use case2
+
+			# add ranking number
+			#which is the best market
+			# add logistics column (factor of amt and distance)
+			# net profit column
+
+intro.html - >
+				farmer chooses:
+						crop
+						amount
+						location
+						use-case1 vs usecase2
+
+
+https://pwp.stevecassidy.net/bottle/forms-processing.html
+
+
+use_case
+amount
+crop

@@ -1,0 +1,54 @@
+
+things to do
+
+
+
+1. edge case testing
+2. unit testing 
+3. selenium - one screenie
+4. unit testing
+
+
+aishu tom:
+
+1. second page to kannada - done
+2. selenium
+3. muhurath (today) - done 
+4. ppt - non functional discuss 
+5. ieee (little more)
+
+
+
+mithu:
+
+1. edge case testing - unit and UI
+2. add scam only for choose between crops - one more as scam
+3. add a date for holiday - done
+4. round off numbers
+
+
+
+16th 
+
+3rd to 6th May 2021
+
+
+
+FINAL ESA
+
+1. current veggies:
+        1. beetroot
+        2. cabbage
+        3. capsicum
+        4. carrot
+        5. ONION
+
+2. change our UI for the use case 
+
+3. add 3 days  (before)
+
+4. keep current date prediction ready
+
+
+
+         

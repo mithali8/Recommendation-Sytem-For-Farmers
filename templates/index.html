@@ -1,0 +1,197 @@
+<!doctype html>
+
+
+<html>
+    <head>
+        <title> YOUR CHOICE </title>
+        
+        <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+  
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#logo{ 
+  position:fixed; 
+  top:20; 
+  left:0; 
+}
+
+h1{
+  text-align:center;
+}
+
+/* Keyword value/name of color */
+.date {
+        background-color: #ffebef;
+    }
+    
+    /* Hexadecimal value */
+    .date1{
+       background-color: #ffebef;	 
+    }
+    
+    /* RGB value */
+    .date2{
+    	background-color: #ffebef;
+    }
+
+    .table tbody  {
+  background-color: #ebd8e0 !important;
+}
+
+
+
+
+
+
+</style>
+    </head>
+    <body>
+      <div id="google_translate_element"></div>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en',  includedLanguages : 'kn'},
+            'google_translate_element'
+        );
+    }
+</script>
+
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<div style="text-align:center; background-color:lavender;">
+<centre> <h1>Your Vegetable is: {{crop}} </h1> </centre>
+<br>
+<br>
+
+<div style="text-align:center; background-color:lavender;">
+  <h2> THE BEST MARKET FOR YOU IS : {{best}} !! </h2>
+  <br>
+  <h3> THE BEST PRICE IS: {{best_price[0]}} </h3>
+  <br>
+  <h3> THE BEST DAY IS: {{dates_array[best_price[1]]}} </h3>
+  <h3> Holiday : {{hol}}
+  </div>
+
+<!-- TABLE 1 STARTING -->
+
+<div class="date" style="padding-bottom: 50px;">
+<!-- <div id="logo"> 
+  <img src="/static/farmerlogo.png"> 
+</div>  -->
+<div>
+<br>
+<br>
+<h2 style="text-align: center;"> Date: {{date}} </h2>
+<br>
+
+<table class = "table table-bordered" style="width:50%">
+	<tr>
+    <th>Market</th>
+    <th>Price Per Quintal </th>
+    <th> Holiday Cost </th>
+    <th> Net Profit (Logistics Included) </th>
+  </tr>
+  {% for row_index in range(x['Market']|count) %}
+    <tr>
+      <td>{{ x['Market'][row_index] }}</td>
+      
+      <td>{{ x['Price Per Quintal'][row_index] }}</td>
+      <td>{{ x['Season'][row_index] }}</td>
+      <td>{{ x['Net Profit'][row_index] }}</td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+</div>
+
+<!-- TABLE 1 ENDING -->
+
+<!-- TABLE 2 STARTING -->
+<br>
+<br>
+
+<br>
+<br>
+<div class="date1" style="padding-bottom: 50px;">
+
+<h2 style="text-align: center;"> Date: {{date1}} </h2>
+<br>
+
+<table class="table table-bordered" style="width:50%">
+	<tr>
+    <th>Market</th>
+    <th>Price Per Quintal </th>
+    <th> Holiday Cost </th>
+    <th> Net Profit (Logistics Included) </th>
+  </tr>
+  {% for row_index in range(x1['Market']|count) %}
+    <tr>
+      <td>{{ x1['Market'][row_index] }}</td>
+      
+      <td>{{ x1['Price Per Quintal'][row_index] }}</td>
+      <td>{{ x1['Season'][row_index] }}</td>
+      <td>{{ x1['Net Profit'][row_index] }}</td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+<!-- TABLE 2 ENDING -->
+
+<br>
+<br>
+
+<br>
+<br>
+<!-- TABLE 3 STARTING -->
+
+<div class="date2" style="padding-bottom: 50px;">
+
+<h2 style="text-align: center;"> Date: {{date2}} </h2>
+<br>
+
+<table class="table table-bordered" style="width:50%">
+	<tr>
+    <th>Market</th>
+    <th>Price Per Quintal </th>
+    <th> Holiday Cost </th>
+    <th> Net Profit (Logistics Included) </th>
+  </tr>
+  {% for row_index in range(x2['Market']|count) %}
+    <tr>
+      <td>{{ x2['Market'][row_index] }}</td>
+      
+      <td>{{ x2['Price Per Quintal'][row_index] }}</td>
+      <td>{{ x2['Season'][row_index] }}</td>
+      <td>{{ x2['Net Profit'][row_index] }}</td>
+    </tr>
+{% endfor %}
+</table>
+</div>
+<!-- TABLE 3 ENDING -->
+<br>
+<br>
+
+<br>
+<br>
+
+
+    </body>
+</html>

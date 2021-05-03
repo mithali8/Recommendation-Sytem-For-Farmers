@@ -1,0 +1,30 @@
+TODAY:
+
+1. Make sure geolocation works  - done 
+2. Integrate whatever we have till now - done 
+3. copy paste into ppt 
+4. look at doc
+5. logistics cost (if possible) - pure math - done 
+
+FOR LATER:
+
+1. Make UI look better - done
+2. Finish PPT - done
+3. Finish doc - nope
+4. Add for 3 more markets - done
+5. short term vs long term - done
+6. Make a suggestion - done
+
+7. rank the table 
+8. round ppq
+9. go through questions and use cases for demo #500 & ready to harvest
+10. who says what ppt
+
+
+MENTION IN PPT:
+1. user specific location also allowed
+2. more crops will be incorporated
+3. design tecniques for digitally illetirate 
+4. data for demo - until july 2020
+
+

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <title> MANDI </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style> #logo{ 
+  position:fixed; 
+  top:65px; 
+  right:0; 
+} 
+</style>
+
+
+
+
+  
+
+
+    
+</head>
+<body>
+
+<div id="google_translate_element"></div>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en',  includedLanguages : 'kn'},
+            'google_translate_element'
+        );
+    }
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div id="logo"> 
+  <img src="/static/farmerlogo.png"> 
+</div> 
+
+<div class="jumbotron text-center">
+  <h1> Mandi </h1>
+  <p> Plan it out! </p> 
+</div>
+
+    <p id="demo"></p>
+
+
+    
+
+
+    <div class = "container">
+    <div class="row">
+      <div class="col-md-6" style="background-color:lavender; height:180px;">
+        <h3>Choose your Vegetable</h3>
+        <form action="/send_data" method="POST" autocomplete="off">
+            <div class="form-group">
+                <label for="sel1">Select Vegetable:</label>
+                <br>
+                <select class="form-control" id="sel1" name="crop">
+                  <option> Beetroot </option>
+                  <option> Cabbage </option>
+                  <option> Capsicum </option>
+                  <option> Tomato </option>
+                  <option> Carrot </option>
+                  <option> Radish </option>
+                  <option> Green Chilly </option>
+                  <option> Cucumber </option>
+                  <option> Onion </option>
+                </select>
+              </div>
+      </div>
+      <div class="col-md-6" style="background-color:lavenderblush;height:180px;">
+        <h3>Enter amount</h3>
+      
+        <!-- <form action=""--> 
+            <div class="form-group">
+              <label > Amount (In kgs) </label>
+              <input class="form-control" id="amount" name="amount" type="number" min="20">
+            </div>
+        <!--</form> -->
+      </div>
+         
+        
+
+
+      <div style="text-align:center; background-color:lavenderblush; height:120px; margin-top:200px;">
+        <h3 align> Location </h3>
+        
+            <div class="form-group">
+              <label > Leave blank for current location </label>
+              <input class="form-control" id="loc" name="loc">
+            </div>
+              
+      </div>
+      <div style="text-align:center;margin-top:10px;"> 
+    <input value = "Find prices" type="submit" class="btn btn-primary btn-lg">
+     </div>
+    
+  </div>
+      
+    </form>
+    </div>
+  </div>
+
+
+   
+
+
+
+  
+  
+  </body>
+  </html>
+  

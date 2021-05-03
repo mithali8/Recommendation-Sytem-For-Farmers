@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="kn">
+<head>
+  <title> MANDI </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style> #logo{ 
+  position:fixed; 
+  top:65px; 
+  right:0; 
+} 
+.center {
+  margin: auto;
+  width: 60%;
+  text-align: center;
+  padding: 10px;
+}
+</style>
+
+
+
+
+  
+
+
+    
+</head>
+<body>
+
+<div id="google_translate_element"></div>
+<script>
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en',  includedLanguages : 'kn'},
+            'google_translate_element'
+        );
+    }
+</script>
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div id="logo"> 
+  <img src="/static/farmerlogo.png"> 
+</div> 
+
+<div class="jumbotron text-center">
+  <h1> Mandi </h1>
+  <p> Plan it out! </p> 
+</div>
+
+    <p id="demo"></p>
+
+
+    
+
+
+    
+
+
+      <form action="/send_usecase" method="POST" autocomplete="off">
+    <div class="center">
+  <h2 class = "center"> How ready are you? </h2>
+  
+    <button type="submit" class="btn btn-primary btn-lg" name = "use_case" value="short_term"> Ready to Harvest </button>
+    <button type="submit" class="btn btn-primary btn-lg" name = "use_case" value="long_term"> Look into each Vegetable </button>
+    <button type="submit" class="btn btn-primary btn-lg" name = "use_case" value="plan"> Show me the best crop! </button>
+</form>
+</div>
+    
+  </div>
+
+      
+    
+
+
+   
+
+
+
+  
+  
+  </body>
+  </html>
+  
